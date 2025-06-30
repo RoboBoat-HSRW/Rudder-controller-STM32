@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "m12_5pol")(type "KiCad")(uri "${KIPRJMOD}/m12_5pol.pretty")(options "")(descr ""))
+)
