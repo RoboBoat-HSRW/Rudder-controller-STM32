@@ -22,7 +22,6 @@ This project is a **closed-loop control system** designed to control rudders usi
 - `512` represents the **neutral rudder position**.
 - Extreme positions can be configured in software to set the desired rudder angles.
   
-![Input PWM](images/rcpwm.png)
 
 ---
 
