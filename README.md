@@ -149,6 +149,7 @@ void Motor::controlLoop() {
         *_ccr = 0;
     }
 }
+```
 - **`setDirection()`**: Controls the motor's rotation direction.
 - **`controlLoop()`**: Updates the PWM duty cycle based on PID output and ensures the shaft stays within defined bounds.
 
