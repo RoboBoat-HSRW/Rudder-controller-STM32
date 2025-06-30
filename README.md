@@ -177,15 +177,19 @@ The custom PCB was developed with several key advantages:
 
 **Conclusion**: The custom PCB offers a more functional and cost-effective solution for real-world production systems.
 
-![image](images/stm32f103_board.png)
+<p float="left">
+  <img src="images/stm32f103_board.png" width="45%" />
+  <img src="images/stm32f103_board-back.png" width="45%" />
+</p>
 
-![image](images/stm32f103_board-back.png)
+<p align="center"><b>STM32 Custom Board - Front and Back</b></p>
 
-Comparison of Arduino and Custom board versions
+<p float="left">
+  <img src="images/stmV.png" width="45%" />
+  <img src="images/arduinoV.png" width="45%" />
+</p>
 
-![image](images/stmV.png)
-
-![image](images/arduinoV.png)
+<p align="center"><b>Comparison: Custom PCB vs Arduino-based System</b></p>
 
 ---
 
