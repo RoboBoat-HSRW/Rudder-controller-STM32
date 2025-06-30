@@ -3,7 +3,7 @@
 ## Overview
 This project is a **closed-loop control system** designed to control rudders using an STM32 microcontroller. It uses a **PID controller** for precise and stable operation and communicates via the **NMEA2000** protocol, making it suitable for marine industry applications.
 
-![image](images/rudder_drawing.jpg)
+![image](images/rudder_drawing2.jpg)
 
 ---
 
