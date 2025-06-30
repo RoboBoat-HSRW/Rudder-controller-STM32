@@ -3,6 +3,8 @@
 ## Overview
 This project is a **closed-loop control system** designed to control rudders using an STM32 microcontroller. It uses a **PID controller** for precise and stable operation and communicates via the **NMEA2000** protocol, making it suitable for marine industry applications.
 
+![image](images/rudder_drawing.jpg)
+
 ---
 
 ## Features
@@ -84,8 +86,7 @@ This project is a **closed-loop control system** designed to control rudders usi
 - A 10-bit setpoint is received via **NMEA2000 CAN bus**.
 - `512` represents the **neutral rudder position**.
 - Extreme positions can be configured in software to set the desired rudder angles.
-  
-![Input PWM](images/rcpwm.png)
+
 
 ---
 
@@ -175,6 +176,16 @@ The custom PCB was developed with several key advantages:
   - Slightly more than STM32 Nucleo, but includes **native NMEA2000 support** which Nucleo lacks.
 
 **Conclusion**: The custom PCB offers a more functional and cost-effective solution for real-world production systems.
+
+![image](images/stm32f103_board.png)
+
+![image](images/stm32f103_board-back.png)
+
+Comparison of Arduino and Custom board versions
+
+![image](images/stmV.png)
+
+![image](images/arduinoV.png)
 
 ---
 
